@@ -1,0 +1,9 @@
+<script src="howler.core.js"></script>
+<script src="howler.spatial.js"></script>
+<script>
+	var sound = new Howl({src:['shot.ogg']});
+</script>
+<a onclick="sound.play();">click</a><br>
+<a onclick="sound.play();sound.pos(0, -50, 0);">m1</a><br>
+<a onclick="sound.play();sound.pos(-50, -50, 0);">m2</a><br>
+<a onclick="sound.play();sound.pos(-50, 0, 0);">m3</a><br>
